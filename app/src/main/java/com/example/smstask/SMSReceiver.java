@@ -15,6 +15,8 @@ import java.util.regex.Pattern;
 
 public class SMSReceiver extends BroadcastReceiver {
     private OTPReceiveListener otpListener;
+
+    private static final int SMS_CONSENT_REQUEST = 2;
     public void setOTPListener(OTPReceiveListener otpListener) {
         this.otpListener = otpListener;
     }

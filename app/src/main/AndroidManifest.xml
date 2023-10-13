@@ -13,16 +13,21 @@
         android:theme="@style/Theme.SmsTask"
         tools:targetApi="31">
         <activity
-            android:name=".SmsRetrivalinConsetApi"
-            android:exported="false" />
+            android:name=".LatestPhoneNumberHint"
+            android:exported="true">
+        </activity>
         <activity
-            android:name=".MainActivity2"
+            android:name=".SmsRetrivalinConsetApi"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true">
 
         </activity>
         <activity
